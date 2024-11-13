@@ -3,7 +3,7 @@
 This Web Component lets you transform HTML container into horizontally scrollable elements. That’s especially convenient for touch menus. By default it shows clickable arrow buttons, which can be used as an alternative to swiping. See below for customization options.
 
 ## Usage
-- Run `$ npm run build` to create a build.
+- Use the current release or run `$ npm run build` yourself to create a build.
 - Include that JavaScript file in your frontend.
 - Use this Web Component by wrapping your desired HTML code like this:
 	```html
