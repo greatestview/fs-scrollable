@@ -1,6 +1,6 @@
 {
   "name": "fs-scrollable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Web Component for horizontally scrollable elements",
   "author": "Kim Meyer <info@meyer.kim>",
   "license": "MIT",

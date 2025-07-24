@@ -17,6 +17,7 @@ This Web Component lets you transform an HTML container into horizontally scroll
 - `<fs-scrollable />` will show clickable buttons and gradients by default.
 - `<fs-scrollable hide-buttons />` will only show gradients.
 - `<fs-scrollable hide-gradients />` will not show gradients nor buttons.
+- `<fs-scrollable disabled />` will disable all functionality and just output the slot children. Useful for e. g. responsive customization.
 - In your theme, you can use these CSS custom properties for further adjustments:
 	- `--fs-scrollable--background-color` defaults to `white`
 	- `--fs-scrollable--color-text` defaults to `black`
