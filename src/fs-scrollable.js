@@ -111,11 +111,9 @@ class FsScrollable extends LitElement {
 
 		.scrollable {
 			display: flex;
-			/* mask-image: linear-gradient(to right, transparent 0, transparent 51px, #000 77px, #000 50%, transparent 50%, transparent 100%), linear-gradient(to left, transparent 0, transparent 51px, #000 77px, #000 50%, transparent 50%, transparent 100%); /* Inspired by YouTube */
 			overflow-x: auto;
 			position: relative; /* w/o this there is some strange overflow in Chromium */
 			scrollbar-width: none;
-			touch-action: pan-y; /* Inspired by YouTube */
 			width: 100%;
 		}
 	`;
